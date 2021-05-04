@@ -1,0 +1,91 @@
+                @font-face {
+                    font-family: 'fonte-sxsw';
+                    src: url("../fonts/GlobotipoRounded-Black.ttf");
+                }
+                
+                @font-face {
+                    font-family: 'fonte-login';
+                    src: url("../fonts/GlobotipoRounded-Regular.ttf");
+                }
+                /* Imagem Desktop */
+                
+                .img-desktop {
+                    position: relative;
+                    height: 100vh;
+                    width: 100vw;
+                }
+                /* Imagem Mobile */
+                
+                .img-mobile {
+                    display: none;
+                }
+                /* Logo */
+                
+                span {
+                    color: white;
+                }
+                
+                .letra-S {
+                    color: #FF6001;
+                    text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+                    font-family: 'fonte-sxsw';
+                    margin-top: 50px;
+                    font-size: 125px;
+                    letter-spacing: -13px;
+                }
+                
+                .login {
+                    font-family: 'fonte-login';
+                    margin: 0;
+                    position: absolute;
+                    text-align: center;
+                    top: 50%;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%);
+                }
+                
+                #button {
+                    margin-top: 20px;
+                    border-radius: 50px;
+                    height: 50px;
+                    width: 130px;
+                    font-size: 20px;
+                }
+                
+                footer {
+                    color: white;
+                    margin-top: 50px;
+                }
+                
+                #label-login {
+                    font-size: 30px;
+                    color: white;
+                }
+                
+                #input {
+                    border-radius: 100px;
+                    height: 50px;
+                }
+                
+                @media (max-width:768px) {
+                    .login {
+                        width: 90%;
+                    }
+                    .letra-S {
+                        font-size: 90px;
+                        letter-spacing: -12px;
+                    }
+                    #button {
+                        width: 50%;
+                    }
+                    .img-desktop {
+                        display: none;
+                    }
+                    .img-mobile {
+                        display: inline;
+                        position: relative;
+                        height: 100vh;
+                        width: 100vw;
+                    }
+                }

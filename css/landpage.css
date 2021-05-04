@@ -1,0 +1,816 @@
+@font-face {
+    font-family: 'fonte-black';
+    src: url("../fonts/GlobotipoRounded-Black.ttf");
+}
+
+@font-face {
+    font-family: 'fonte-regular';
+    src: url("../fonts/GlobotipoRounded-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'fonte-bold';
+    src: url("../fonts/GlobotipoRounded-Bold.ttf");
+}
+
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(-150deg, #ff5900 80%, #ff5900, #fd017f 95%);
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+
+/* texto SXSW */
+
+.texto-logo {
+    position: relative;
+    text-align: center;
+    bottom: 980px;
+}
+
+.h1-logo {
+    font-size: 150px;
+    font-family: 'fonte-black';
+    letter-spacing: -17px;
+    color: white;
+}
+
+.letra-s {
+    color: #ff5900;
+    text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+}
+
+
+/* Fim texto SXSW */
+
+
+/* Vídeo */
+
+iframe {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 9999;
+    top: 200px;
+}
+
+
+/* Fim Vídeo */
+
+
+/* Circulos da "div1" do lado esquerdo, "EM CIMA" */
+
+.div1 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    transform: translateX(-50%);
+    left: 5%;
+}
+
+
+/* Circulo Maior */
+
+.circulo1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(160deg, transparent, #F24405 50%, #F24405 70%, #fd017f);
+    border-radius: 100%;
+    right: 150px;
+    bottom: 150px;
+    z-index: 9999;
+}
+
+
+/* Circulo Transparente */
+
+.circulo2 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    border: solid 1px white;
+    left: 130px;
+    top: 100px;
+}
+
+
+/* fim do circulos da "div1" */
+
+
+/* circulos da "div2" do lado esquerdo, "EM BAIXO" */
+
+.div2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    transform: translateX(-50%);
+    left: 12%;
+    z-index: 9999;
+}
+
+
+/* Circulo Transparente */
+
+.circulo3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: solid 1px white;
+    border-radius: 100%;
+    left: 20%;
+}
+
+
+/* Circulo Médio */
+
+.circulo4 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    border-radius: 100%;
+    top: 100px;
+    left: 40px;
+}
+
+
+/* Circulo Menor */
+
+.circulo5 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    border-radius: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Circulo para Mobile */
+
+.circulo6 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    border-radius: 100%;
+    display: none;
+}
+
+
+/* fim do circulos da "div2" */
+
+
+/* circulos da "div3" do lado direito, "EM CIMA" */
+
+.div3 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: translateX(-50%);
+    left: 90%;
+    bottom: 450px;
+}
+
+
+/* Circulo Transparente */
+
+.circulo7 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: solid 1px white;
+}
+
+
+/* Circulo Médio */
+
+.circulo8 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    border-radius: 100%;
+    left: 30px;
+    top: 50px;
+}
+
+
+/* fim do circulos da "div3" */
+
+.div4 {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    transform: translateX(-50%);
+    left: 95%;
+    bottom: 350px;
+    z-index: 9999;
+}
+
+
+/* Circulo Grande */
+
+.circulo9 {
+    position: absolute;
+    width: 370px;
+    height: 380px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    border-radius: 100%;
+    bottom: -10px;
+    left: 10px;
+}
+
+
+/* Circulo Transparente */
+
+.circulo10 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    top: 100px;
+    right: 170px;
+    border-radius: 100%;
+    border: solid 1px white;
+    z-index: 9999;
+}
+
+
+/* Circulo Menor */
+
+.circulo11 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    border-radius: 100%;
+    top: 290px;
+    left: 20px;
+}
+
+
+/* FIM HEADER */
+
+
+/* section  */
+
+
+/* Texto e Icone */
+
+section {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    transform: skewY(-6deg);
+    bottom: 105px;
+}
+
+.icon {
+    position: absolute;
+    transform: skewY(6deg) translateX(-50%);
+    left: 50%;
+    top: 15%;
+    color: #F24405;
+}
+
+.text-section {
+    position: relative;
+    text-align: center;
+    transform: skewY(6deg);
+    top: 150px;
+}
+
+
+/* Fim section  */
+
+
+/* section-1 */
+
+.section-1 {
+    position: relative;
+    background-image: linear-gradient(-150deg, #ff5900 80%, #ff5900, #fd017f 95%);
+    height: 600px;
+}
+
+
+/* Circulos da "div5"  */
+
+.div5 {
+    position: relative;
+    transform: skewY(6deg) translateX(-50%);
+    left: 50%;
+    width: 900px;
+    height: 300px;
+    top: -150px;
+    overflow: hidden;
+    /* background-color: yellowgreen; */
+}
+
+
+/* Div Maior com Texto "MEIO" */
+
+.circulo12 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 100%;
+    z-index: 9999;
+}
+
+.text1-circulo12 {
+    font-family: 'fonte-regular';
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+
+.text2-circulo12 {
+    font-family: 'fonte-black';
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+
+/* Circulo Médio lado "Esquerdo" */
+
+.circulo13 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    transform: translateX(-50%);
+    left: 33%;
+    border-radius: 100%;
+    top: 65px;
+}
+
+
+/* Circulo Menor lado "Esquerdo" */
+
+.circulo14 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    transform: translateX(-50%);
+    left: 25%;
+    border-radius: 100%;
+    top: 40px;
+}
+
+
+/* Circulo Transparente lado "Esquerdo" */
+
+.circulo15 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    transform: translateX(-50%);
+    left: 10%;
+    border-radius: 100%;
+    border: solid 1px white;
+    top: 130px;
+}
+
+
+/* Circulo Menor lado "Direito" */
+
+.circulo16 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    transform: translateX(-50%);
+    left: 70%;
+    border-radius: 100%;
+    top: 60px;
+    z-index: 9999;
+}
+
+
+/* Circulo Médio lado "Direito" */
+
+.circulo17 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+    transform: translateX(-50%);
+    left: 68%;
+    border-radius: 100%;
+    top: 155px;
+    z-index: 9999;
+}
+
+
+/* Circulo Transparente lado "Direito" */
+
+.circulo18 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    transform: translateX(-50%);
+    left: 75%;
+    border-radius: 100%;
+    border: solid 1px white;
+    top: 100px;
+}
+
+
+/* Fim Circulos da "div5"  */
+
+
+/* Texto Section-1 */
+
+.text-upload {
+    font-family: 'fonte-regular';
+    position: absolute;
+    transform: skewY(6deg) translateX(-50%);
+    left: 50%;
+    top: 80px;
+    font-size: 90px;
+    color: #ff5900;
+    text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+}
+
+.text-section-1 {
+    position: relative;
+    transform: skewY(6deg) translateX(-50%);
+    left: 50%;
+    text-align: center;
+    top: -50px;
+    color: white;
+}
+
+.text-7-pilares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 15px;
+    transform: skewY(6deg) translateX(-50%);
+    left: 50%;
+    top: 350px;
+    width: 210px;
+    height: 40px;
+    background-image: linear-gradient(to top, transparent, #F24405, yellow);
+    font-family: 'fonte-black';
+    color: white;
+}
+
+
+/* Fim Texto Section-1 */
+
+
+/* Lista Ordenadas Section-1 */
+
+ol {
+    font-size: 16px;
+    font-family: 'fonte-regular';
+    color: white;
+    position: relative;
+    overflow: hidden;
+    margin: 200px;
+    transform: skewY(6deg);
+    bottom: 150px;
+    right: 100px;
+    columns: 2;
+}
+
+
+/* Fim section-1 */
+
+
+/* article*/
+
+.article {
+    bottom: 120px;
+    height: auto;
+    background-color: white;
+    display: grid;
+    transform: skewY(-6deg);
+}
+
+
+/* footer */
+
+footer {
+    height: 600px;
+    width: 100%;
+    margin-top: -200px;
+    background-image: linear-gradient(-290deg, #ff5900 80%, #ff5900, #fd017f 95%);
+}
+
+.h1-footer {
+    font-family: 'fonte-black';
+    position: relative;
+    bottom: -1330px;
+    color: white;
+    font-size: 150px;
+    letter-spacing: -20px;
+}
+
+
+/*  Foto com Legenda */
+
+.foto-legenda-1 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    transform: skewY(6deg);
+    /* bottom: 500px; */
+    color: white;
+    left: 100px;
+    grid-gap: 150px;
+}
+
+.nome {
+    color: #F24405;
+}
+
+.descricao {
+    color: black;
+}
+
+.descricao1 {
+    font-family: 'fonte-bold';
+    color: black;
+}
+
+.text-nome-section-2,
+.nome {
+    font-family: 'fonte-black';
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+}
+
+
+/* Fotos */
+
+.foto {
+    /* border-radius: 100%; */
+    width: 500px;
+    height: auto;
+}
+
+
+/* descricao das fotos */
+
+.descricao {
+    font-family: 'fonte-regular';
+    font-size: 20px;
+}
+
+
+/* texto das fotos */
+
+.text-article {
+    text-align: center;
+}
+
+
+/* Botão Voltar ao topo */
+
+.icone-voltar {
+    position: fixed;
+    z-index: 9999;
+    right: 20px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+#bt-sair {
+    font-family: 'fonte-regular';
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    background: #F60;
+    z-index: 9999;
+    width: 100px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0px 1px #930;
+    transition: box-shadow 0.1s ease, transform 0.1s ease;
+}
+
+#bt-sair:active {
+    box-shadow: 0 0 0 0 #930, inset 3px 3px 3px #930;
+    transform: translate(3px, 3px);
+}
+
+@media (max-width:800px) {
+    /* Header @Media  */
+    header {
+        height: 900px;
+    }
+    iframe {
+        width: 90%;
+    }
+    .h1-logo,
+    .texto-logo {
+        bottom: 920px;
+        font-size: 90px;
+        letter-spacing: -12px;
+    }
+    /* Circulo lado "Esquerdo" em "Cima" */
+    .circulo1 {
+        background-image: linear-gradient(160deg, transparent, #F24405 10%, yellow 10%, #FC3B61 80%);
+        width: 60px;
+        height: 60px;
+        right: 100px;
+        top: 15px;
+    }
+    .circulo2 {
+        display: none;
+    }
+    /* Circulo Tranparente lado "Esquerdo" em "Baixo" */
+    .circulo3 {
+        width: 120px;
+        height: 120px;
+        top: 250px;
+        left: 180px;
+    }
+    /* Circulo "Maior" lado "Esquerdo" em "Baixo" */
+    .circulo4 {
+        width: 180px;
+        height: 180px;
+        top: 200px;
+    }
+    /* Circulo "Médio" lado "Esquerdo" em "Baixo" */
+    .circulo5 {
+        width: 70px;
+        height: 70px;
+        left: 230px;
+        top: 200px;
+    }
+    /* Circulo "Menor" lado "Esquerdo" em "Baixo" */
+    .circulo6 {
+        display: block;
+        top: 315px;
+        left: 275px;
+    }
+    .circulo7 {
+        display: none;
+    }
+    /* Circulo Médio lado "Direito" em "Cima" */
+    .circulo8 {
+        width: 100px;
+        height: 100px;
+        top: -115px;
+        left: 40px;
+    }
+    .circulo9 {
+        display: none;
+    }
+    /* Circulo Transparente lado "Direito"  */
+    .circulo10 {
+        left: 110px;
+        top: -190px;
+    }
+    .circulo11 {
+        display: none;
+    }
+    /* Fim  Header */
+    /* Section */
+    section {
+        height: 600px;
+    }
+    .icon {
+        top: 60px;
+    }
+    /* Texto da section */
+    .text-section {
+        top: 120px;
+    }
+    /* Fim Section */
+    /* Section-1 @Media */
+    .section-1 {
+        height: 900px;
+    }
+    .div5 {
+        width: 100%;
+    }
+    .circulo12 {
+        width: 225px;
+        height: 225px;
+        bottom: 30px;
+    }
+    .text1-circulo12 {
+        font-size: 25px;
+    }
+    .text2-circulo12 {
+        font-size: 35px;
+    }
+    /* Circulo Médio lado "Esquerdo" */
+    .circulo13 {
+        top: 20px;
+        left: 20%;
+    }
+    .circulo14 {
+        display: none;
+    }
+    .circulo15 {
+        display: none;
+    }
+    /* Circulo Menor lado "Direito" */
+    .circulo16 {
+        width: 40px;
+        height: 40px;
+        left: 85%;
+        top: 0px;
+    }
+    /* Circulo Médio lado "Direito" */
+    .circulo17 {
+        width: 50px;
+        height: 50px;
+        left: 73%;
+        top: 50px;
+    }
+    /* Circulo Transparente lado "Direito" */
+    .circulo18 {
+        width: 200px;
+        height: 200px;
+        left: 100%;
+        top: 10px;
+    }
+    /* texto-upload */
+    .text-upload {
+        font-size: 80px;
+        top: 130px;
+    }
+    /* texto-7-pilares */
+    .text-7-pilares {
+        top: 470px;
+        width: 80%;
+        font-size: 20px;
+    }
+    ol {
+        margin: 0;
+        columns: 1;
+        top: 100px;
+        left: 5%;
+        font-size: 16px;
+        white-space: nowrap;
+        width: 250px;
+    }
+    /* Fim Section-1 @Media  */
+    /* article @Media */
+    /*  Foto & Legenda */
+    .foto-legenda-1 {
+        display: block;
+        transform: skewY(6deg) translateX(-50%);
+        left: 50%;
+        /* bottom: 650px; */
+    }
+    .foto {
+        position: relative;
+        transform: translateX(-50%);
+        left: 50%;
+        height: auto;
+        width: 100%;
+        z-index: 1;
+        padding: 25px;
+    }
+    .nome,
+    .descricao1,
+    .descricao {
+        position: relative;
+        /* top: 170px; */
+    }
+    .nome {
+        position: relative;
+        font-size: 38px;
+    }
+    .descricao1,
+    .descricao {
+        position: relative;
+        font-size: 25px;
+        /* top: 180px; */
+        /* footer */
+    }
+    .h1-footer {
+        bottom: -1250px;
+        font-size: 90px;
+        letter-spacing: -10px;
+    }
+    #bt-sair {
+        top: 15px;
+    }
+}
